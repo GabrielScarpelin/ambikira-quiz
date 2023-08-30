@@ -144,7 +144,7 @@ export default function Rules({navigation, route}) {
               onPress={(checked) => setCheck1(checked)}
             />
             <Text style={styles.fontCheckBox}>
-              O quiz é composto por 6 perguntas, e o tempo total é de 2 minutos.
+              O quiz é composto por 6 perguntas, e o tempo total é de 1 minutos e 30 segundos.
             </Text>
           </View>
           <View style={styles.checkBoxView}>
