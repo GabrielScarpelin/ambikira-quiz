@@ -303,7 +303,7 @@ export default function Home({ navigation, route }) {
             innerIconStyle={{ borderRadius: 4, borderWidth: 2 }}
             iconStyle={{ borderRadius: 4 }}
             style={{ alignSelf: "flex-start" }}
-            onPress={(checked) => setCheck2(checked)}
+            onPress={(checked1) => setCheck2(checked1)}
           />
 
 
@@ -343,8 +343,7 @@ export default function Home({ navigation, route }) {
           <TouchableOpacity
             style={styles.button}
             onPress={() => {
-
-              if (!check1 && !check2) {
+              if (check1 === false || check2 === false) {
                 Alert.alert(
                   "Aviso",
                   "Você precisa aceitar os termos de Uso para jogar!"
